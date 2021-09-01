@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA052AA526D8935B00629F3A /* MoodScore20ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA052AA426D8935B00629F3A /* MoodScore20ViewController.swift */; };
+		EA052AA726D8936700629F3A /* MoodScore40ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA052AA626D8936600629F3A /* MoodScore40ViewController.swift */; };
+		EA052AA926D8937000629F3A /* MoodScore60ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA052AA826D8937000629F3A /* MoodScore60ViewController.swift */; };
+		EA052AAB26D8937B00629F3A /* MoodScore80ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA052AAA26D8937B00629F3A /* MoodScore80ViewController.swift */; };
+		EA052AAD26D8938500629F3A /* MoodScore100ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA052AAC26D8938500629F3A /* MoodScore100ViewController.swift */; };
+		EA86D26326CF86FD00E09CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86D26226CF86FD00E09CA3 /* AppDelegate.swift */; };
+		EA86D26526CF86FD00E09CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86D26426CF86FD00E09CA3 /* SceneDelegate.swift */; };
+		EA86D26726CF86FD00E09CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86D26626CF86FD00E09CA3 /* ViewController.swift */; };
+		EA86D26A26CF86FD00E09CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA86D26826CF86FD00E09CA3 /* Main.storyboard */; };
+		EA86D26C26CF870000E09CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA86D26B26CF870000E09CA3 /* Assets.xcassets */; };
+		EA86D26F26CF870000E09CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA86D26D26CF870000E09CA3 /* LaunchScreen.storyboard */; };
+		EA86D27726CF871500E09CA3 /* FeelingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86D27626CF871500E09CA3 /* FeelingsViewController.swift */; };
+		EA86D27926CF872300E09CA3 /* MoodScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86D27826CF872300E09CA3 /* MoodScaleViewController.swift */; };
+		EA86D27B26CF873600E09CA3 /* SleepTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86D27A26CF873600E09CA3 /* SleepTrackerViewController.swift */; };
+		EA86D27D26CF875600E09CA3 /* MentalHealthServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86D27C26CF875600E09CA3 /* MentalHealthServicesViewController.swift */; };
+		EA86D27F26CF877200E09CA3 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA86D27E26CF877200E09CA3 /* GlobalVariables.swift */; };
+		EA86D29A26CFE08500E09CA3 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EA86D28C26CFE08400E09CA3 /* Proxima Nova Alt Light.otf */; };
+		EA94D3CC26D5E375006325C5 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94D3CB26D5E375006325C5 /* JournalViewController.swift */; };
+		EA94D3CE26D5E383006325C5 /* DailyFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94D3CD26D5E383006325C5 /* DailyFeedViewController.swift */; };
+		EAC5AA5E26CFFD9C00F75B58 /* LEMONMILK-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAC5AA5D26CFFD9C00F75B58 /* LEMONMILK-Bold.otf */; };
+		EAC5AA6026D279FD00F75B58 /* SleepQualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5AA5F26D279FD00F75B58 /* SleepQualityViewController.swift */; };
+		EAC5AA6226D4A6EA00F75B58 /* Proxima Nova Alt Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAC5AA6126D4A6E900F75B58 /* Proxima Nova Alt Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA052AA426D8935B00629F3A /* MoodScore20ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScore20ViewController.swift; sourceTree = "<group>"; };
+		EA052AA626D8936600629F3A /* MoodScore40ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScore40ViewController.swift; sourceTree = "<group>"; };
+		EA052AA826D8937000629F3A /* MoodScore60ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScore60ViewController.swift; sourceTree = "<group>"; };
+		EA052AAA26D8937B00629F3A /* MoodScore80ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScore80ViewController.swift; sourceTree = "<group>"; };
+		EA052AAC26D8938500629F3A /* MoodScore100ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScore100ViewController.swift; sourceTree = "<group>"; };
+		EA86D25F26CF86FD00E09CA3 /* CM project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA86D26226CF86FD00E09CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA86D26426CF86FD00E09CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA86D26626CF86FD00E09CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA86D26926CF86FD00E09CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA86D26B26CF870000E09CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA86D26E26CF870000E09CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA86D27026CF870000E09CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA86D27626CF871500E09CA3 /* FeelingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsViewController.swift; sourceTree = "<group>"; };
+		EA86D27826CF872300E09CA3 /* MoodScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScaleViewController.swift; sourceTree = "<group>"; };
+		EA86D27A26CF873600E09CA3 /* SleepTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerViewController.swift; sourceTree = "<group>"; };
+		EA86D27C26CF875600E09CA3 /* MentalHealthServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthServicesViewController.swift; sourceTree = "<group>"; };
+		EA86D27E26CF877200E09CA3 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		EA86D28C26CFE08400E09CA3 /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima Nova Alt Light.otf"; path = "../../../../../../../../Desktop/Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		EA94D3CB26D5E375006325C5 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		EA94D3CD26D5E383006325C5 /* DailyFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFeedViewController.swift; sourceTree = "<group>"; };
+		EAC5AA5D26CFFD9C00F75B58 /* LEMONMILK-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Bold.otf"; sourceTree = "<group>"; };
+		EAC5AA5F26D279FD00F75B58 /* SleepQualityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepQualityViewController.swift; sourceTree = "<group>"; };
+		EAC5AA6126D4A6E900F75B58 /* Proxima Nova Alt Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Regular.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA86D25C26CF86FD00E09CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA86D25626CF86FD00E09CA3 = {
+			isa = PBXGroup;
+			children = (
+				EA86D28026CFE04600E09CA3 /* Fonts */,
+				EA86D26126CF86FD00E09CA3 /* CM project */,
+				EA86D26026CF86FD00E09CA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA86D26026CF86FD00E09CA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA86D25F26CF86FD00E09CA3 /* CM project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA86D26126CF86FD00E09CA3 /* CM project */ = {
+			isa = PBXGroup;
+			children = (
+				EA86D26226CF86FD00E09CA3 /* AppDelegate.swift */,
+				EA86D26426CF86FD00E09CA3 /* SceneDelegate.swift */,
+				EA86D26626CF86FD00E09CA3 /* ViewController.swift */,
+				EA86D26826CF86FD00E09CA3 /* Main.storyboard */,
+				EA86D26B26CF870000E09CA3 /* Assets.xcassets */,
+				EA86D26D26CF870000E09CA3 /* LaunchScreen.storyboard */,
+				EA86D27026CF870000E09CA3 /* Info.plist */,
+				EA86D27E26CF877200E09CA3 /* GlobalVariables.swift */,
+				EA86D27626CF871500E09CA3 /* FeelingsViewController.swift */,
+				EA86D27826CF872300E09CA3 /* MoodScaleViewController.swift */,
+				EA86D27A26CF873600E09CA3 /* SleepTrackerViewController.swift */,
+				EA86D27C26CF875600E09CA3 /* MentalHealthServicesViewController.swift */,
+				EAC5AA5F26D279FD00F75B58 /* SleepQualityViewController.swift */,
+				EA94D3CB26D5E375006325C5 /* JournalViewController.swift */,
+				EA94D3CD26D5E383006325C5 /* DailyFeedViewController.swift */,
+				EA052AA426D8935B00629F3A /* MoodScore20ViewController.swift */,
+				EA052AA626D8936600629F3A /* MoodScore40ViewController.swift */,
+				EA052AA826D8937000629F3A /* MoodScore60ViewController.swift */,
+				EA052AAA26D8937B00629F3A /* MoodScore80ViewController.swift */,
+				EA052AAC26D8938500629F3A /* MoodScore100ViewController.swift */,
+			);
+			path = "CM project";
+			sourceTree = "<group>";
+		};
+		EA86D28026CFE04600E09CA3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA86D28C26CFE08400E09CA3 /* Proxima Nova Alt Light.otf */,
+				EAC5AA6126D4A6E900F75B58 /* Proxima Nova Alt Regular.otf */,
+				EAC5AA5D26CFFD9C00F75B58 /* LEMONMILK-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA86D25E26CF86FD00E09CA3 /* CM project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA86D27326CF870000E09CA3 /* Build configuration list for PBXNativeTarget "CM project" */;
+			buildPhases = (
+				EA86D25B26CF86FD00E09CA3 /* Sources */,
+				EA86D25C26CF86FD00E09CA3 /* Frameworks */,
+				EA86D25D26CF86FD00E09CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CM project";
+			productName = "CM project";
+			productReference = EA86D25F26CF86FD00E09CA3 /* CM project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA86D25726CF86FD00E09CA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EA86D25E26CF86FD00E09CA3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EA86D25A26CF86FD00E09CA3 /* Build configuration list for PBXProject "CM project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA86D25626CF86FD00E09CA3;
+			productRefGroup = EA86D26026CF86FD00E09CA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA86D25E26CF86FD00E09CA3 /* CM project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA86D25D26CF86FD00E09CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA86D29A26CFE08500E09CA3 /* Proxima Nova Alt Light.otf in Resources */,
+				EA86D26F26CF870000E09CA3 /* LaunchScreen.storyboard in Resources */,
+				EAC5AA6226D4A6EA00F75B58 /* Proxima Nova Alt Regular.otf in Resources */,
+				EAC5AA5E26CFFD9C00F75B58 /* LEMONMILK-Bold.otf in Resources */,
+				EA86D26C26CF870000E09CA3 /* Assets.xcassets in Resources */,
+				EA86D26A26CF86FD00E09CA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA86D25B26CF86FD00E09CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA052AAB26D8937B00629F3A /* MoodScore80ViewController.swift in Sources */,
+				EA052AA926D8937000629F3A /* MoodScore60ViewController.swift in Sources */,
+				EA86D27B26CF873600E09CA3 /* SleepTrackerViewController.swift in Sources */,
+				EA86D27926CF872300E09CA3 /* MoodScaleViewController.swift in Sources */,
+				EA86D27F26CF877200E09CA3 /* GlobalVariables.swift in Sources */,
+				EA052AA726D8936700629F3A /* MoodScore40ViewController.swift in Sources */,
+				EA86D26726CF86FD00E09CA3 /* ViewController.swift in Sources */,
+				EA94D3CC26D5E375006325C5 /* JournalViewController.swift in Sources */,
+				EA86D27D26CF875600E09CA3 /* MentalHealthServicesViewController.swift in Sources */,
+				EA052AA526D8935B00629F3A /* MoodScore20ViewController.swift in Sources */,
+				EAC5AA6026D279FD00F75B58 /* SleepQualityViewController.swift in Sources */,
+				EA86D26326CF86FD00E09CA3 /* AppDelegate.swift in Sources */,
+				EA052AAD26D8938500629F3A /* MoodScore100ViewController.swift in Sources */,
+				EA86D26526CF86FD00E09CA3 /* SceneDelegate.swift in Sources */,
+				EA94D3CE26D5E383006325C5 /* DailyFeedViewController.swift in Sources */,
+				EA86D27726CF871500E09CA3 /* FeelingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA86D26826CF86FD00E09CA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA86D26926CF86FD00E09CA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA86D26D26CF870000E09CA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA86D26E26CF870000E09CA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA86D27126CF870000E09CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA86D27226CF870000E09CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA86D27426CF870000E09CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CM project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xcode.CM-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA86D27526CF870000E09CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CM project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xcode.CM-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA86D25A26CF86FD00E09CA3 /* Build configuration list for PBXProject "CM project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA86D27126CF870000E09CA3 /* Debug */,
+				EA86D27226CF870000E09CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA86D27326CF870000E09CA3 /* Build configuration list for PBXNativeTarget "CM project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA86D27426CF870000E09CA3 /* Debug */,
+				EA86D27526CF870000E09CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA86D25726CF86FD00E09CA3 /* Project object */;
+}
